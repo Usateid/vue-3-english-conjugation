@@ -32,7 +32,11 @@
           <span
             class="block pl-4 align-middle text-gray-700 no-underline border-l-2 border-transparent lg:hover:border-red-500"
           >
-            <span class="pb-1 md:pb-0 text-sm italic">{{ item.value }}</span>
+            <span
+              @click="$emit('set', item.value)"
+              class="pb-1 md:pb-0 text-sm italic"
+              >{{ item.value }}</span
+            >
           </span>
         </li>
       </ul>
