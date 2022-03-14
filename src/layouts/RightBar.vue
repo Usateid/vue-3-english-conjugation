@@ -1,8 +1,6 @@
 <template>
   <div class="w-full lg:w-1/6 lg:px-6 text-xl text-gray-800 leading-normal">
-    <p class="text-base font-bold py-2 lg:pb-6 text-gray-700">
-      English Conjugation
-    </p>
+    <p class="text-base font-bold py-2 lg:pb-6 text-gray-700">English Verbs</p>
     <!-- Mobile Section -->
     <!-- <div class="block lg:hidden sticky inset-0">
       <button
@@ -41,7 +39,24 @@
 </template>
 
 <script setup>
-const items = [{ value: "to Have" }, { value: "to Be" }];
+const items = [
+  { value: "Present" },
+  { value: "Preterite" },
+  { value: "Present continuous" },
+  { value: "Present perfect" },
+  { value: "Future" },
+  { value: "Past continous" },
+  { value: "Past perfect" },
+  { value: "Future continuous" },
+  { value: "Present perfect continuous" },
+  { value: "Past perfect continuous" },
+  { value: "Future perfect continuous" },
+  { value: "Imperative" },
+  { value: "Participle Present" },
+  { value: "Participle Past" },
+  { value: "Infinitive" },
+  { value: "Perfect Participle" },
+];
 </script>
 
 <style lang="scss" scoped></style>
